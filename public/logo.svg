@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#4F46E5"/>
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563EB"/>
+      <stop offset="100%" style="stop-color:#4F46E5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- AI Brain Icon -->
+  <path d="M25 15 
+           A15 15 0 0 1 40 30
+           A15 15 0 0 1 25 45
+           A15 15 0 0 1 10 30
+           A15 15 0 0 1 25 15
+           M20 25 L30 35 M20 35 L30 25
+           M25 20 L25 40"
+        stroke="url(#iconGradient)"
+        stroke-width="2"
+        fill="none"
+        stroke-linecap="round"/>
+  
+  <!-- Logo Text -->
+  <text x="60" y="40" 
+        font-family="Inter, system-ui, sans-serif" 
+        font-size="34" 
+        font-weight="600" 
+        letter-spacing="0.5"
+        fill="url(#logoGradient)">
+    humanize<tspan fill="#4F46E5" font-weight="700">.ai</tspan>
+  </text>
+</svg>
